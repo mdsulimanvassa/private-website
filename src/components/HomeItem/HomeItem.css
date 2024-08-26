@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    margin-left: 5%;
+}
+.box-sadow{
+    box-sizing: border-box;
+    background-color: #1e272e;
+    height: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 28%;
+    box-shadow: 10px 10px 10px 10px #24313b;
+}
+.box-sadow p{
+    text-align: justify;
+    margin-top: 30px;
+}
+.box-sadow h2{
+    margin-top: 30px;
+}
+.design{
+    margin-top: 100px;
+}
+.word{
+    word-spacing: 10px;
+    font-size: 60px;
+    text-align: center;
+}
+.word-space{
+    text-align: center;
+    color: #f1c40f;
+    font-size: 20px;
+}
+/* .box-sadow a{
+    text-decoration: none;
+    display: block;
+    margin-top: 40px;
+} */
+/* .box-sadow a .icon{
+    margin-left: 10px;
+    color: #f1c40f;
+} */
+/* .box-sadow a:hover{
+    color: #f1c40f;
+} */
+@media screen and (max-width:420px) {
+    div .design{
+        width: 100%;
+    }
+    div .container{
+        display: block;
+        width: 95%;
+    }
+     div .box-sadow{
+        width: 90%; 
+        padding: 10px; 
+        margin-left: 0;   
+    }
+    div .box-sadow p{
+        text-align: justify;
+        margin-top: 30px;
+    }
+}

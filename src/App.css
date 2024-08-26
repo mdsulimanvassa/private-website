@@ -1,7 +1,11 @@
-.App {
-  text-align: center;
+*::selection{
+  background: #f39c12;
+  color: white;
 }
-
+*{
+  background-color: #1e272e;
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+footer{
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  margin-top: 60px;
+  line-height: 40px;
+}
+footer p{
+  text-align: right;
+  display: inline-block;
+  color: #f39c12;
+  margin-left: 70%;
+  background-color: black;
+}
+footer img{
+  width: 2%;
 }

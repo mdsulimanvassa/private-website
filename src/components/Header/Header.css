@@ -1,0 +1,62 @@
+nav{
+    width: 95%;
+}
+nav ul{
+    height: 80px;
+    width: 100%;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+.display{
+    position: sticky;
+    top: 0px;
+    right: 0;
+    z-index: 2;
+}
+nav .navbar{
+   text-decoration: none;
+   float: right;
+   margin-right: 0px;
+   margin-left: 15px;
+   color: #fff;
+   padding: 0px 25px;
+   font-size: 15px;
+   border-radius: 5px;
+   
+}
+.navbar.hover,.navbar:hover{
+    background-color: #FFC312;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+.logo{
+    text-decoration: none;
+    font-size: 35px;
+    padding: 0px 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.dood{
+    color: goldenrod;
+    font-size: 35px;
+}
+@media screen and (max-width:420px){
+    .display{
+        position: sticky;
+        top: 0px;
+        right: 0;
+        z-index: 2;
+    }
+    nav{
+        width: 96%;
+    }
+    nav ul{
+        height: 80px;
+        width: 90%;
+        font-family: sans-serif;
+        line-height: 40px;
+    }
+    nav .navbar{
+        margin-top: 10px;
+    }
+}
